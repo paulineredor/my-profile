@@ -1,0 +1,109 @@
+/* Colors and fonts */
+body {
+  background: #F7FFF7;
+  color: rgb(50, 50, 50);
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+h1 {
+  color: #FF2B6B;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+h2 {
+  color: #646464;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+a {
+  font-family: 'Red Hat Display', sans-serif;
+  text-decoration: none;
+  color: #D91F1F;
+  font-weight: 800;
+}
+
+a:hover {
+  color: #000000;
+}
+
+/* Custom design with class */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+  background-color: #FFFFFF;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-blue {
+  background-color: #D91F1F;
+  color: #FFFFFF;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin: 20px 20px;
+}
+
+.btn-blue:hover {
+  background-color: #111111;
+  color: #FFFFFF;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: #CCCCCC;
+}
+
+.list-inline i:hover {
+  font-size: 50px;
+  color: #000000;
+}
+
+/* Design adjustments using id */
+#introduction p {
+  margin-bottom: 40px;
+}
